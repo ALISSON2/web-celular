@@ -1,0 +1,82 @@
+body
+{
+    background-image:url(j.jpg);
+    margin:1px 10px;
+    padding:1px 10px;
+}
+header
+{
+    background:url(bgs.jpg);
+    box-shadow:2px 2px orange;
+    font-size:1.4em;
+    padding:2em;
+    text-align:center;
+}
+header figure img
+{
+    float:right;
+    padding:0.2em 0.2em 0 0;
+    margin:0.2em 0.2em 0 0;
+    width:50px;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+    font-size:2em;
+    color:white;
+    text-shadow:2.5px 2.5px #000;
+}    
+section
+{
+    background:violet;
+    box-shadow:2px 2px orange;
+    margin:2px 0 0 0;
+    padding:2px 0 0 1px;
+}
+section article
+{
+    padding:2px 3em  3px 7em;
+}
+aside img
+{
+    float:right;
+    width:30%;
+}
+table
+{
+    background-color:#003322;
+    float:left;
+    width:60%;
+}
+table thead
+{
+    background:rgba(252,149,10,0.9);
+    color:white;
+    font-size:1.4em;
+    text-shadow:5px 5px 10px rgba(24,20,220,0.9);
+}
+table tbody
+{
+    background:rgba(234,61,117,0.9); 
+    color:white;
+}
+table tbody tr td input
+{
+    background:rgba(255,255,160,0.8);
+    border:2px #603 solid;  
+}
+td
+{
+    color:lime;
+    font-size:1em;
+    text-align:center;    
+}
+footer
+{
+    background:violet;
+    box-shadow:2px 2px orange;
+    color:aqua;
+    font-size:1em;
+    margin-top:2px;
+    text-align:center;
+}
