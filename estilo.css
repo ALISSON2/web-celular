@@ -18,7 +18,18 @@ body
 h1
 {
     color:#fff;
+    font-size:2.2em;
 }
+div#galleria img
+{
+    float:left;
+    display:block;
+}
+h5{background-color: #b6151a;
+    color:white;
+    margin:3px;
+    padding: 3px;
+    text-shadow: 2px 2px black;}
 p
 {
     background-color: #b6151a;
@@ -26,11 +37,11 @@ p
     padding: 10px 10px;
     text-shadow: 2px 2px black;
 }
-
 #contacto
 {
-	width: 120px;
+    table-layout:center;
 	margin: 0 auto;
+	width: 120px;
 }
 #contacto:before
 {
@@ -50,52 +61,124 @@ p
 section figure
 {
 	border-top: 1px #222 solid;
-	margin: 0 auto;
+	margin: 2px auto;
 }
 footer
 {
     color:white;
     font-size: 0.6em;
     text-align: center;
+    text-shadow:1.2px 1.2px lime;
 }
-section
+section#0
 {
-    background:url(fondoos.jpg);
     border-radius:0.5em;
     height:90%;
     margin:0.5em;
     padding:0.5em;
     box-shadow:2px 2px black;
 }
-section a
+section#o a
 {
-    background:lime;
-    border:0.2em solid orange;
+    background:#b6151a;
+    border:0.2em solid #b6151a;
     border-radius:0.25em;
-    color:#303;
+    color:pink;
     display:block;
     font-family:arial;
     font-size:1em;
+    font-weight:bold;
     margin:0.25em auto;
-    max-width:15%;
+    max-width:20%;
     padding:0.25em;
     text-align:center;
-    vertical-align:top;
     text-decoration:none;
+    text-shadow:2px 2px #303;
+    vertical-align:top;
 }
-section a:hover
+section#o a:hover
 {
     background:yellow;
     border:0.2em dashed fuchsia;
     border-radius:0.25em;
-    color:blue;
+    color:white;
     display:block;
     font-family:arial;
     font-size:1em;
     margin:0.25em auto;
-    max-width:15%;
+    max-width:20%;
     padding:0.25em;
     text-align:center;
     vertical-align:top;
     text-decoration:none;
+    text-shadow:blue;
 }
+@media (max-width: 480px)
+{
+   #lateral
+    {
+        display:block;
+        width:100%;
+    }
+    #as
+    {
+        display:block;
+    }
+    header
+    {
+        display:none;
+        width:90%
+    }
+}
+#lateral
+{
+    display:none;   
+}
+@media (min-width: 700px) {
+ #lateral
+{
+    border: 0 solid red;   
+    display:none;
+    width:40%;
+}
+header
+{
+    width:50%;
+}
+aside
+    {
+        display: block;        
+    }
+header,#lateral
+    {
+    display:inline-block;
+    vertical-align:top;
+    }
+section p
+    {
+    width:655px;
+    }
+@media (min-width: 1000px) {
+    aside {
+        display: block;
+        width: 35%;
+    }
+    #o,footer{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+    section#o,aside,footer{
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+#o,footer
+    {
+        float:left;
+    }
+aside
+    {
+        float:right;
+    }
+    
